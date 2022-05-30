@@ -11,7 +11,7 @@ public class SYGOptionManager : MonoBehaviour
     public GameObject camera2;
     public GameObject canvas1;
     public GameObject canvas2;
-    
+
     public void OpenOption()
     {
         Option.SetActive(true);

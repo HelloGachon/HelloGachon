@@ -314,12 +314,12 @@ public class SetActivityManager_sk : MonoBehaviour
 
         if(GameData.gamedata.month=="3월"){
             // GameData.gamedata.month="4월";
-            GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("heeRoom3");
+            GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("Freedom");
         }
         else if(GameData.gamedata.month=="4월")
         {
-            // GameData.gamedata.month="5월";
-            GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("heeRoom4");
+            GameData.gamedata.month="6월";
+            GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("MiniGame3");
             
         }else if(GameData.gamedata.month=="5월")
         {

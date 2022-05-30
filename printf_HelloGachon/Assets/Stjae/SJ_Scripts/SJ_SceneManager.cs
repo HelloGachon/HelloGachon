@@ -261,10 +261,9 @@ public class SJ_SceneManager : MonoBehaviour
         {
             case 7:
                 dialogue.SetActive(false);
-                GameData.gamedata.month = "4월";
                 ModGameDataAfterClass();
                 Debug.Log("3월 수업 종료");
-                GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("Group");
+                GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("SYGFestival");
             break;
 
             default:
@@ -324,7 +323,7 @@ public class SJ_SceneManager : MonoBehaviour
             GameData.gamedata.month = "5월";
             ModGameDataAfterClass();
             Debug.Log("중간고사 종료");
-            GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("Set_Activity_5May");
+            GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("Game_Ending_Scene_sk");
         }
         else if (currentClass.dialNumber < currentClass.dialSize-1)
             ++currentClass.dialNumber;
@@ -369,10 +368,10 @@ public class SJ_SceneManager : MonoBehaviour
         {
             case 6:
                 dialogue.SetActive(false);
-                GameData.gamedata.month = "기말";
+                GameData.gamedata.month = "중간";
                 ModGameDataAfterClass();
                 Debug.Log("6월 수업 종료");
-                GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("heeRoom5_2");
+                GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("SYGFestival");
             break;
 
             default:

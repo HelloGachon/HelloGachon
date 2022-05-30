@@ -319,7 +319,6 @@ public class GRTalkManager : MonoBehaviour
                 GameData.gamedata.stress-=8;
                 GameData.gamedata.health-=5;
                 GameData.gamedata.popular+=8;
-
                 //능력치 보정
                 //전공
                 if(GameData.gamedata.major>100){GameData.gamedata.major=100;}
