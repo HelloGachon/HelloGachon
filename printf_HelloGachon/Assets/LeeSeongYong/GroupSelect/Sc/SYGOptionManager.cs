@@ -13,10 +13,7 @@ public class SYGOptionManager : MonoBehaviour
     public GameObject canvas2;
 
     private void Update() {
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            OpenOption();
-        }
+       
     }
     public void OpenOption()
     {

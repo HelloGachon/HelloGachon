@@ -65,10 +65,7 @@ public class TypeGameManager_mg1 : MonoBehaviour
     void Update() {
         if(loop < 6)
         {
-            if(Input.GetKeyDown(KeyCode.Escape))
-            {
-                openOption();
-            }
+            
             
             if(isPlaying) {
                 remainingTime = CountdowmTimer();
@@ -196,9 +193,9 @@ public class TypeGameManager_mg1 : MonoBehaviour
     void displayClassNum()
     {
         //for Android
-        qBox.SetActive(true);
+        //qBox.SetActive(true);
         //for Windows
-        //qBox.SetActive(false);
+        qBox.SetActive(false);
 
         currentClassNum = UnityEngine.Random.Range(0, classNumList.Count);
         classNumTxt.text = classNumList[currentClassNum].className + ": " + classNumList[currentClassNum].classNum;

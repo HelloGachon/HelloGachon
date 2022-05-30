@@ -234,6 +234,6 @@ public class QuestManager_otl_sk : MonoBehaviour
         isChoosing = false;
         
         //참가하지 않으면 수강신청 씬 진행
-        GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("BeforeMiniGame1");
+        GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("OT_AfterParty_sk");
     }
 }

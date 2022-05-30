@@ -374,6 +374,6 @@ public class GameEndingManager_sk : MonoBehaviour
 
     public void gotoEndingCredit()
     {
-        GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("Ending_Credit_scene_sk");
+        GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("StartScene");
     }
 }

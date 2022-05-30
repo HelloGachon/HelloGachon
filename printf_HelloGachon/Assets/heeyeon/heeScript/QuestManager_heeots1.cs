@@ -141,7 +141,7 @@ public class QuestManager_heeots1 : MonoBehaviour
         isInteract = false;
         Debug.Log("간다!");
         //참여한다고 하면 바로 메인맵으로 이동 후, 튜토리얼 진행
-        GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("heeMonth1");
+        GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("OT_Listening_sk");
 
     }
 
@@ -152,7 +152,7 @@ public class QuestManager_heeots1 : MonoBehaviour
         Debug.Log("안가!");
         
         //참여하지 않으면 2월 오티가기 전으로 넘어감
-        GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("OT_Select_sk");
+        GameObject.Find("UI_Canvas").GetComponent<FadeINOUT>().LoadFadeOut("OT_Listening_sk");
         
     }
 

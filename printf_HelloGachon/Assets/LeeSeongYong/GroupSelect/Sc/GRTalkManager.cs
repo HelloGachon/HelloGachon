@@ -301,7 +301,7 @@ public class GRTalkManager : MonoBehaviour
                 GameData.gamedata.stress-=8;
                 GameData.gamedata.health-=5;
                 GameData.gamedata.popular+=8;
-                GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("heeRoom5");
+                GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("heeMonth5");
             }
            
            return null;

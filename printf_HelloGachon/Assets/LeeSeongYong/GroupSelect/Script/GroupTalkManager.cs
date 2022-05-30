@@ -525,7 +525,8 @@ public class GroupTalkManager : MonoBehaviour
             }
              if(EndStory){
                         //Set_Activity_sk
-                        GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("MTStart");
+                        GameData.gamedata.month = "4월";
+                        GameObject.Find("Canvas").GetComponent<FadeINOUT>().LoadFadeOut("MiniGame2");
                     }
              if(id-id%10==3010)
             {
